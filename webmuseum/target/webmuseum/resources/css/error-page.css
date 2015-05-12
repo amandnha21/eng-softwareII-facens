@@ -1,0 +1,22 @@
+body{
+    color:#fff;
+    background:url(../images/error-page-alert.png) #002d68 no-repeat right center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+
+h1{font-size:40px; color:#FC0}
+h5{margin-top:30px}
+a:hover{color:#99CCFF}
+
+.error-page {margin-top:80px}
+.error-page ul li {line-height:30px}
+.navbar-inverse .navbar-inner { border-bottom:1px solid #1E678D}
+
+@media (max-width: 767px) {
+    h1{font-size:25px}
+    h3{font-size:17px}
+    h5{margin-top:15px}
+    .error-page {margin-top:20px}
+}
